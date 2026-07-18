@@ -85,15 +85,15 @@ body {
 
   position: absolute;
   top: 50%;
+  left: 0;
   z-index: 1;
-  right: 0;
   transform: translateY(-50%);
 
   animation: slide-back 0.2s;
 }
 
 .light #switch button {
-  animation: slide-in 0.4s forwards;
+  animation: slide-in 0.2s forwards;
 }
 
 #switch button {
